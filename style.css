@@ -3,11 +3,16 @@ body {
     margin: 0;
 }
 
-.top-section {
-    background-color: #1F2937;
+.section {
     box-sizing: border-box;
-    padding: 16px 225px;
+    padding: 16px 220px;
     height: 500px;
+}
+
+/* This section styles the top dark-blue section */
+
+#top-section {
+    background-color: #1F2937;
 }
 
 .logos {
@@ -17,7 +22,7 @@ body {
 }
 
 .sign-up {
-     width: 350px;
+     width: 470px;
     flex-wrap: wrap;
 }
 
@@ -26,6 +31,11 @@ body {
     display: flex;
     align-items: center;
     margin-top: 60px;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
 }
 
 h3 {
@@ -43,10 +53,10 @@ button {
 }
 
 .big-image {
-    background-color: rgb(94, 94, 94);
+    background-color: rgb(95, 95, 99);
     box-sizing: border-box;
-    height: 220px;
-    width: 440px;
+    height: 250px;
+    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,4 +84,37 @@ a {
 .contrast {
     color: #E5E7EB;
     font-size: 18px;
+}
+/* This section is for the middle information section */
+
+#information-section {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+
+.small-image {
+    box-sizing: border-box;
+    outline: 5px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.info-container {
+    display: flex;
+    gap: 50px;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 150px;
 }
