@@ -62,7 +62,7 @@ button {
     align-items: center;
 }
 
-.divider {
+.divider-1 {
     display: flex;
     flex: 1;
 }
@@ -97,6 +97,7 @@ h2 {
     font-weight: 900;
     display: flex;
     justify-content: center;
+    color: #1F2937;
 }
 
 .small-image {
@@ -117,4 +118,91 @@ h2 {
     flex-direction: column;
     gap: 16px;
     width: 150px;
+}
+
+.info-text {
+    color: #85878a;
+}
+
+/* This section is for the quote */
+
+#quote-section {
+    background-color: #E5E7EB;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.attribution {
+    font-weight: 900;
+    display: flex;
+    justify-self: right;
+}
+
+.quote-content {
+    width: 750px;
+}
+
+/* This section is for the call to action */
+
+#call-section {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    box-sizing: border-box;
+    background-color: #3882F6;
+    width: 1000px;
+    padding: 40px 125px;
+    display: flex; 
+    align-items: center;
+    border-radius: 10px;
+}
+
+h4 {
+    color: white;
+    margin: 0;
+    font-size: 20px;
+}
+
+.call-text {
+    color: #d4e1f3;
+}
+
+.sign-up-button {
+    outline: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.divider-2 {
+    display: flex;
+    flex: 1;
+}
+
+/* This is for the Footer */
+
+.footer {
+    box-sizing: border-box;
+    background-color: #1F2937;
+    display: flex;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-text {
+    color: #F9FAF8;
 }
